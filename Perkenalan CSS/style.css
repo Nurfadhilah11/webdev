@@ -1,0 +1,33 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    height: 800px;
+    width: 70%;
+    margin: auto;
+    background-color: azure;
+}
+
+#header {
+    height: 20%;
+    width: 100%;
+    background-color: palevioletred;
+}
+
+#content {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(235, 168, 168);
+}
+
+#footer {
+    height: 30%;
+    width: 100%;
+    background-color: rgb(246, 215, 210);
+}
+
+.wrapper {
+    background-color: darksalmon;
+}
