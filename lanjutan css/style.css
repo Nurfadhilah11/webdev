@@ -1,0 +1,83 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    background: url("foto/1234.jpg") repeat;
+    padding: 40px;
+}
+
+#page {
+    width: 800px;
+    height: 120;
+    background: lightcoral;
+    padding: 20px;
+    clear:both; 
+}
+
+h1 {
+    color: cornsilk;
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+}
+
+div p {
+    margin: 40px 0 20px 0;
+    color: cornsilk;
+    font-size: 28px;
+    font-style: italic;
+    margin-left: 30px;
+}
+
+p::first-letter {
+    color:cornsilk;
+    font-size: xx-large;
+}
+
+span {
+    color: rgb(206, 218, 254);
+    font-style: italic;
+    font-size: 28px;
+}
+
+a {
+    color: cornsilk;
+    text-decoration: none;
+}
+
+input [type="text"] {
+    background-color: lightcoral;
+    border: none;
+    padding: 10px 10px;
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.box {
+    width: 250px;
+    float: left;
+    display: inline;
+    background-color: rgb(255, 237, 168);
+    color: lightcoral;
+    padding: 30px;
+    margin-left: 16%;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.item {
+    background-color: rgb(206, 218, 254);
+    height: 500px;
+    margin: 20px;
+
+}
